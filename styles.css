@@ -33,19 +33,29 @@ header
     font-size: 15px;
 }
 
-p{
-    font-family:  sans-serif;
-    font-size: medium;
-    font-weight: 700;
-
-    
+.main-nav li a:hover
+{
+    border: 2px;
+    background-color: black;
 }
 
-li{
-    font-size: medium;
+body{
+    font-family: monopause;
 }
 
+.hero
+{
+    position: absolute;
+    width: 1200px;
+    margin-left: 0px;
+    margin-top: 0px;
 
-h2{
-    font-size: larger;
+}
+h1
+{
+    color:white ;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 70;
+    margin-top: 100px;
 }
