@@ -10,45 +10,28 @@ header
     height: 80vh;
     background-size: cover;
     background-position: center;
-}
-
-.main-nav
-{
-  float :right;
-  list-style: none;
-  margin-top: 40px;
-
-}
-.main-nav li
-{
-    display: inline-block;
-}
-
-.main-nav li a
-{
-    color: white;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
+    background-repeat: no-repeat;
 }
 
 
+.hero:hover {
+    background-color:black;
+  }
 
-body{
-    font-family: monopause;
-}
+
 
 .hero
 
 h1
 {
-    color:blue ;
+    color:brown ;
     text-transform: uppercase;
     text-align: left;
     font-size: 70;
     margin-top: 100px;
+
 }
+
 
 
 body {
@@ -63,6 +46,8 @@ body {
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
+  
   
   .column {
     float: left;
@@ -70,6 +55,7 @@ body {
     margin-bottom: 16px;
     padding: 0 8px;
   }
+  
   
   
   
@@ -87,23 +73,15 @@ body {
   
   
   
-  @media screen and (max-width: 650px) {
-    .column {
-      width: 40%;
-      display: grid;
-    }
-  }
+  
 
-.albulm
-  h2{
-      text-align: center;
-      position: absolute;
-      
-      
-      color:  blue;
+  
       
 
-  }
+
+    
+
+
   
   ul {
     color: black;
