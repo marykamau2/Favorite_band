@@ -6,11 +6,12 @@
 
 header
 {
-    background-image: url(sautisol.jpg) ;
-    height: 80vh;
+    background-image: url(images/sautisol.jpg) ;
+    height: 150vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
 }
 
 
